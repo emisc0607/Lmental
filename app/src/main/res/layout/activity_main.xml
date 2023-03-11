@@ -5,26 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/common_padding_default"
-    tools:context=".MainActivity">
+    android:background="@color/main_background"
+    tools:context=".MainMenuActivity">
 
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        android:background="@color/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="64dp"/>
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvTitle"
         style="@style/TextAppearance.MaterialComponents.Headline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_name"
+        android:text="Quiero saber más de..."
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="64dp"
+        android:background="#FDF9F0"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bSuicide"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/common_padding_min"
+        android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
         android:text="@string/str_button1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/s_button"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bConsumption"
+        android:layout_width="256dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:text="@string/consumption"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/c_button"
+        app:layout_constraintTop_toBottomOf="@id/bSuicide" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
