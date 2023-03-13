@@ -6,5 +6,6 @@
 ### Facultad de Ingeniería, Campus San Juan del Río, UAQ
 
 Desarrollada por:
-
++ emisc0607
++ CSantiagoRmz
 
