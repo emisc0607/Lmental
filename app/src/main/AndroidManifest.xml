@@ -12,6 +12,21 @@
         android:theme="@style/Theme.Lmental"
         tools:targetApi="31">
         <activity
+            android:name=".suicide.FirstOption.FOSubOptions.SSuicideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FirstOption.FOSubOptions.SAttemptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FirstOption.FOSubOptions.SPlanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FirstOption.FOSubOptions.DIdeaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FirstOption.SuicideFirstActivity"
+            android:exported="false" />
+        <activity
             android:name=".suicide.SuicideActivity"
             android:exported="false" />
         <activity

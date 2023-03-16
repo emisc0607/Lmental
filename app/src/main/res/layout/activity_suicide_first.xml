@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/main_background"
+    android:layout_height="match_parent"
+    tools:context=".suicide.FirstOption.SuicideFirstActivity">
+
+    <TextView
+        android:id="@+id/tvSFirstSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#7C3F3A"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:text="¿Cononces alguna de estas señales?"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"/>
+
+
+        <ImageView
+            android:id="@+id/ivThermo"
+            app:layout_constraintTop_toBottomOf="@+id/tvSFirstSubtitle"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            android:layout_width="120dp"
+            android:layout_height="600dp"
+            app:tint="@color/black"
+            android:src="@drawable/thermo"/>
+
+    <LinearLayout
+        android:id="@+id/llFirstSubtitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvSFirstSubtitle"
+        app:layout_constraintStart_toEndOf="@+id/ivThermo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="128dp">
+        <TextView
+            android:id="@+id/tvDIdea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SFirstSubtitle"
+            android:text="Ideas de Muerte"/>
+        <TextView
+            android:id="@+id/tvSPlan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SFirstSubtitle"
+            android:text="Plan suicida"/>
+        <TextView
+            android:id="@+id/tvSAttempt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SFirstSubtitle"
+            android:text="Intento de suicidio"/>
+        <TextView
+            android:id="@+id/tvSuicide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/SFirstSubtitle"
+            android:text="suicidio"/>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabFirstOptionReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#F61E74"
+        android:src="@drawable/ic_return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@+id/llFirstSubtitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/black"
+        android:text="¡Pide ayuda con cualquiera de estas señales! Recuerda que puedes recibirla dando click al directorio"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
