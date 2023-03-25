@@ -27,6 +27,9 @@
             android:name=".suicide.FirstOption.SuicideFirstActivity"
             android:exported="false" />
         <activity
+            android:name=".ConsumoActivity"
+            android:exported="false" />
+        <activity
             android:name=".suicide.SuicideActivity"
             android:exported="false" />
         <activity
