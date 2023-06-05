@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Lmental</string>
-    <string name="str_button1">Suicidio</string>
-    <string name="consumption">Consumo</string>
+    <string name="str_button1">Conducta Suicida</string>
+    <string name="consumption">Consumo de alcohol y drogas</string>
 </resources>

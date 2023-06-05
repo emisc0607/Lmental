@@ -8,9 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="main_background">#FDF170</color>
+    <color name="main_background">#FEF251</color>
     <color name="sub_background">#70F0EF</color>
     <color name="logo">#E7B2CE</color>
-    <color name="s_button">#71E279</color>
-    <color name="c_button">#A377DB</color>
+    <color name="s_button">#2DB352</color>
+    <color name="c_button">#2A69AD</color>
+
+    <color name="login_title">#5271FE</color>
+    <color name="login_button">#4A8BFE</color>
+    <color name="login_button_text">#C0FE72</color>
+
 </resources>

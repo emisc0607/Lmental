@@ -10,32 +10,32 @@
 
     <ImageView
         android:id="@+id/ivLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_foreground"
-        android:background="@color/logo"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:src="@drawable/lmental_icon_yellow"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tvTitle"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="64dp"/>
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/tvTitle"
         style="@style/TextAppearance.MaterialComponents.Headline5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Quiero saber más de..."
-        android:textColor="@color/black"
+        android:layout_height="48dp"
+        android:text="Quiero saber más sobre"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="64dp"
-        android:background="#FDF9F0"
+        android:background="@color/teal_200"
         app:layout_constraintTop_toBottomOf="@+id/ivLogo"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bSuicide"
         android:layout_width="256dp"
-        android:layout_height="64dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
         android:textSize="24sp"
         android:text="@string/str_button1"
         android:textStyle="bold"
@@ -48,7 +48,7 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/bConsumption"
         android:layout_width="256dp"
-        android:layout_height="64dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:textSize="24sp"
         android:text="@string/consumption"
