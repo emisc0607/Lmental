@@ -23,19 +23,19 @@
             style="@style/SFirstSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ideas de muerte"/>
+            android:text="Ideas de muerte" />
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="64dp"
-        app:cardBackgroundColor="@color/main_background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:cardBackgroundColor="@color/main_background"
+        app:cardCornerRadius="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cvDIdea"
-        app:cardCornerRadius="32dp">
+        app:layout_constraintTop_toBottomOf="@+id/cvDIdea">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,33 +45,33 @@
             <TextView
                 style="@style/DIdea"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginVertical="32dp"
-                android:layout_height="wrap_content"
-                android:text="Tienes pensamientos como:"/>
+                android:text="Tienes pensamientos como:" />
 
             <TextView
                 style="@style/DIdea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="  *¨Deseo Estar Muerto¨"/>
+                android:text="  *¨Deseo Estar Muerto¨" />
 
             <TextView
                 style="@style/DIdea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="  *¨Quiero hacerme daño¨"/>
+                android:text="  *¨Quiero hacerme daño¨" />
 
             <TextView
                 style="@style/DIdea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="  *¨Pienso en matarme¨"/>
+                android:text="  *¨Pienso en matarme¨" />
 
             <TextView
                 style="@style/DIdea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="  *¨Mi familia y amigos estarían mejor si muriera¨"/>
+                android:text="  *¨Mi familia y amigos estarían mejor si muriera¨" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
@@ -83,8 +83,8 @@
         android:layout_marginLeft="32dp"
         android:layout_marginBottom="32dp"
         android:backgroundTint="#F61E74"
+        android:src="@drawable/ic_return"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:src="@drawable/ic_return"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

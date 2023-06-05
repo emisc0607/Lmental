@@ -3,69 +3,73 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@color/main_background"
     android:layout_height="match_parent"
+    android:background="@color/main_background"
     tools:context=".suicide.FirstOption.SuicideFirstActivity">
 
     <TextView
         android:id="@+id/tvSFirstSubtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="¿Cononces alguna de estas señales?"
         android:textColor="#7C3F3A"
         android:textSize="24sp"
         android:textStyle="bold|italic"
-        android:text="¿Cononces alguna de estas señales?"
-        android:layout_marginTop="16dp"
-        android:layout_gravity="center"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
-        <ImageView
-            android:id="@+id/ivThermo"
-            app:layout_constraintTop_toBottomOf="@+id/tvSFirstSubtitle"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginTop="32dp"
-            android:layout_width="120dp"
-            android:layout_height="600dp"
-            app:tint="@color/black"
-            android:src="@drawable/thermo"/>
+    <ImageView
+        android:id="@+id/ivThermo"
+        android:layout_width="120dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/thermo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSFirstSubtitle"
+        app:tint="@color/black" />
 
     <LinearLayout
         android:id="@+id/llFirstSubtitle"
-        app:layout_constraintTop_toBottomOf="@+id/tvSFirstSubtitle"
-        app:layout_constraintStart_toEndOf="@+id/ivThermo"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
         android:orientation="vertical"
-        android:layout_marginTop="128dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivThermo"
+        app:layout_constraintTop_toBottomOf="@+id/tvSFirstSubtitle">
+
         <TextView
             android:id="@+id/tvDIdea"
+            style="@style/SFirstSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/SFirstSubtitle"
-            android:text="Ideas de Muerte"/>
+            android:text="Ideas de Muerte" />
+
         <TextView
             android:id="@+id/tvSPlan"
+            style="@style/SFirstSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/SFirstSubtitle"
-            android:text="Plan suicida"/>
+            android:text="Plan suicida" />
+
         <TextView
             android:id="@+id/tvSAttempt"
+            style="@style/SFirstSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/SFirstSubtitle"
-            android:text="Intento de suicidio"/>
+            android:text="Intento de suicidio" />
+
         <TextView
             android:id="@+id/tvSuicide"
+            style="@style/SFirstSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/SFirstSubtitle"
-            android:text="suicidio"/>
+            android:text="suicidio" />
     </LinearLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -80,15 +84,15 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        app:layout_constraintTop_toBottomOf="@+id/llFirstSubtitle"
-        app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="¡Pide ayuda con cualquiera de estas señales! Recuerda que puedes recibirla dando click al directorio"
         android:textColor="@color/black"
-        android:text="¡Pide ayuda con cualquiera de estas señales! Recuerda que puedes recibirla dando click al directorio"/>
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llFirstSubtitle" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
