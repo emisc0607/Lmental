@@ -3,8 +3,10 @@ package com.example.lmental.suicide
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.lmental.MainMenuActivity
 import com.example.lmental.databinding.ActivitySuicideBinding
 import com.example.lmental.suicide.FirstOption.SuicideFirstActivity
+import com.example.lmental.suicide.SecondOption.SuicideSecond
 
 class SuicideActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySuicideBinding
@@ -18,5 +20,13 @@ class SuicideActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.cvSSecondOption.setOnClickListener {
+            val intent = Intent(this, SuicideSecond::class.java)
+            startActivity(intent)
+        }
+        binding.fabSActivityReturn.setOnClickListener {
+            val intent = Intent(this, MainMenuActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

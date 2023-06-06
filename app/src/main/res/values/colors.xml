@@ -9,7 +9,11 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="main_background">#FEF251</color>
-    <color name="sub_background">#70F0EF</color>
+    <color name="sub_background">#7ED857</color>
+    <color name="sucideconduct_background">#C0FE72</color>
+    <color name="sucideconduct_title">#27348A</color>
+    <color name="sucideconduct_button">#5CE0E5</color>
+    <color name="sucideconduct_button_text">#545454</color>
     <color name="logo">#E7B2CE</color>
     <color name="s_button">#2DB352</color>
     <color name="c_button">#2A69AD</color>

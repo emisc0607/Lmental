@@ -27,6 +27,14 @@
 
     </androidx.cardview.widget.CardView>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:src="@drawable/s_attempt_thermo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginVertical="64dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,7 +55,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="32dp"
-                android:text="Si te hiciste daño a ti mismo con la firme intención de morir" />
+                android:gravity="center"
+                android:text="¿Alguna vez te hiciste daño a ti mismo con la firme intención de morir?" />
+
+            <TextView
+                style="@style/DIdea"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="32dp"
+                android:textStyle="bold"
+                android:text="Pide ayuda y haz una consulta profesional" />
 
 
         </LinearLayout>
