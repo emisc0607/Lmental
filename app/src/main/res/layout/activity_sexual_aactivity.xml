@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sub_background"
+    android:layout_margin="@dimen/common_padding_default"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".suicide.SecondOption.SOSubOptions.SexualAb.SexualAActivity">
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:src="@drawable/sexual_a_round_ic"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abuso sexual"
+        style="@style/SSecondSubtitle"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/main_background">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#C03331"
+                android:text="RECUERDA"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Nadie tiene derecho a acariciarte, besarte, tocarte, ni obligarte a mostrar o ver los genitales de alguén más, tampoco a ver pornografía."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="¡nunca guardes ese tipo de secreto!"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#C03331"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:text="Si alguna vez te pasó algo así, te decimos qué puedes hacer dando click al botón"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSexualAActivityReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="128dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#F61E74"
+            android:src="@drawable/ic_return" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSexualAHelp"
+            android:layout_marginLeft="64dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#F44336"
+            android:src="@drawable/baseline_help_outline_24" />
+    </LinearLayout>
+
+
+</LinearLayout>

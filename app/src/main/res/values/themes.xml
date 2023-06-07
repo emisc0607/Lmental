@@ -25,6 +25,17 @@
         <item name="cardBackgroundColor">@color/white</item>
     </style>
 
+    <style name="SSecondOptionButton">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="cardBackgroundColor">@color/suicideconduct_secondoption_button</item>
+        <item name="android:textSize">8sp</item>
+        <item name="cardCornerRadius">40dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">90dp</item>
+    </style>
+
     <style name="SFirstSubtitle">
         <item name="android:textColor">@color/black</item>
         <item name="textAllCaps">true</item>
@@ -34,6 +45,15 @@
         <item name="android:layout_marginVertical">16dp</item>
     </style>
 
+
+    <style name="SSecondSubtitle">
+        <item name="android:textColor">@color/suicideconduct_secondoption_subttitles</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="fontFamily">monospace</item>
+        <item name="android:gravity">center</item>
+    </style>
     <style name="DIdea">
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">16dp</item>

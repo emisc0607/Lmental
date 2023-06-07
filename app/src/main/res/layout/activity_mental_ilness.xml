@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sub_background"
+    android:layout_margin="@dimen/common_padding_default"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".suicide.SecondOption.SOSubOptions.MentalIlnessActivity">
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:src="@drawable/mental_problems_ic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Problemas de Salud Mental"
+        style="@style/SSecondSubtitle"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/main_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Si bien no todos los y las adolescentes que tienen algún problema de salud mental - como depresión, ansiedad, estrés - tienen conductas suicidas, cuando alguna de estas situaciones se dan es importante acudir a platicar con un profesional que pueda darte la atención que necesitas. Puedes hablar con alguien de confianza pidiendo te acompañe a pedir ayuda"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabMentalIlnessActivityReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="128dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F61E74"
+        android:src="@drawable/ic_return" />
+
+
+
+
+</LinearLayout>
