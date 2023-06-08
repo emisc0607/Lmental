@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lmental.databinding.ActivitySuicideSecondBinding
+import com.example.lmental.suicide.SecondOption.SOSubOptions.FamProblems.FamiliarProblems
 import com.example.lmental.suicide.SecondOption.SOSubOptions.MentalIlnessActivity
 import com.example.lmental.suicide.SecondOption.SOSubOptions.SexualAb.SexualAActivity
 import com.example.lmental.suicide.SuicideActivity
@@ -28,6 +29,11 @@ class SuicideSecond : AppCompatActivity() {
 
         binding.cvSexualA.setOnClickListener {
             val intent = Intent(this, SexualAActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.cvFamProblems.setOnClickListener {
+            val intent = Intent(this, FamiliarProblems::class.java)
             startActivity(intent)
         }
     }

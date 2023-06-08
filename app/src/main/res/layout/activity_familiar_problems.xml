@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".suicide.SecondOption.SOSubOptions.FamProblems.FamiliarProblems"
+    android:layout_margin="16dp"
+    android:background="@color/sub_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/fam_problems_round_ic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Problemas familiares"
+        style="@style/SSecondSubtitle"
+        android:textColor="#873A34"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="16dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/main_background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Es normal que las familias atraviesen diferentes conflictos, sin embargo, hay algunos que pueden ser particularmente perturbadores."/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvFamiliarV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/main_background"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:textColor="#E1671D"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Violencia familiar"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvCDivorce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/main_background"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:textColor="#E1671D"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Divorcio conflictivo"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabFamProblemsReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="128dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F61E74"
+        android:src="@drawable/ic_return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</LinearLayout>

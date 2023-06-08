@@ -25,6 +25,7 @@
     <color name="suicideconduct_secondoption_button">#5CE0E5</color>
     <color name="suicideconduct_secondoption_button_text">#000000</color>
     <color name="suicideconduct_secondoption_subttitles">#1E3B4B</color>
+    <color name="suicideconduct_subbackground">#FDC801</color>
 
 
 </resources>
