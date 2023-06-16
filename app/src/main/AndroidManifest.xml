@@ -12,6 +12,27 @@
         android:theme="@style/Theme.Lmental"
         tools:targetApi="31">
         <activity
+            android:name=".suicide.FourthOption.SuicideFourth"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.SecondOption.SOSubOptions.SuicideADConsumption"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.SecondOption.SOSubOptions.SchoolarStress.SchoolStressHelp"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.SecondOption.SOSubOptions.SchoolarStress.SchoolarStress"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.SecondOption.SOSubOptions.Bullying"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.SecondOption.SOSubOptions.LowSelfEsteem.LowSelfEsteemHelp"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.SecondOption.SOSubOptions.LowSelfEsteem.LowSelfEsteem"
+            android:exported="false" />
+        <activity
             android:name=".suicide.SecondOption.SOSubOptions.FamProblems.FamiliarVHelp"
             android:exported="false" />
         <activity

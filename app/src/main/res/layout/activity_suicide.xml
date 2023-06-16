@@ -96,6 +96,39 @@
 
     </androidx.cardview.widget.CardView>
 
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSFourthOption"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/cvSFirstOption">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_fourth_option_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Qué pasa en tu mente cuando tienes estas ideas?"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabSActivityReturn"
         android:layout_width="wrap_content"

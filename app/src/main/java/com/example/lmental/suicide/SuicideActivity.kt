@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.lmental.MainMenuActivity
 import com.example.lmental.databinding.ActivitySuicideBinding
 import com.example.lmental.suicide.FirstOption.SuicideFirstActivity
+import com.example.lmental.suicide.FourthOption.SuicideFourth
 import com.example.lmental.suicide.SecondOption.SuicideSecond
 
 class SuicideActivity : AppCompatActivity() {
@@ -26,6 +27,11 @@ class SuicideActivity : AppCompatActivity() {
         }
         binding.fabSActivityReturn.setOnClickListener {
             val intent = Intent(this, MainMenuActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.cvSFourthOption.setOnClickListener {
+            val intent = Intent(this, SuicideFourth::class.java)
             startActivity(intent)
         }
     }

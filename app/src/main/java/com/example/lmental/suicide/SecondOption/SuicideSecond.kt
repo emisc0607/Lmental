@@ -4,9 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lmental.databinding.ActivitySuicideSecondBinding
+import com.example.lmental.suicide.SecondOption.SOSubOptions.Bullying
 import com.example.lmental.suicide.SecondOption.SOSubOptions.FamProblems.FamiliarProblems
+import com.example.lmental.suicide.SecondOption.SOSubOptions.LowSelfEsteem.LowSelfEsteem
 import com.example.lmental.suicide.SecondOption.SOSubOptions.MentalIlnessActivity
+import com.example.lmental.suicide.SecondOption.SOSubOptions.SchoolarStress.SchoolarStress
 import com.example.lmental.suicide.SecondOption.SOSubOptions.SexualAb.SexualAActivity
+import com.example.lmental.suicide.SecondOption.SOSubOptions.SuicideADConsumption
 import com.example.lmental.suicide.SuicideActivity
 
 class SuicideSecond : AppCompatActivity() {
@@ -34,6 +38,27 @@ class SuicideSecond : AppCompatActivity() {
 
         binding.cvFamProblems.setOnClickListener {
             val intent = Intent(this, FamiliarProblems::class.java)
+            startActivity(intent)
+        }
+
+        binding.cvLowSelfE.setOnClickListener {
+            val intent = Intent(this, LowSelfEsteem::class.java)
+            startActivity(intent)
+        }
+
+        binding.cvBullying.setOnClickListener {
+            val intent = Intent(this, Bullying::class.java)
+            startActivity(intent)
+        }
+
+
+        binding.cvSchoolStress.setOnClickListener {
+            val intent = Intent(this, SchoolarStress::class.java)
+            startActivity(intent)
+        }
+
+        binding.cvADConsume.setOnClickListener {
+            val intent = Intent(this, SuicideADConsumption::class.java)
             startActivity(intent)
         }
     }
