@@ -36,11 +36,11 @@
         android:id="@+id/cvSFirstOption"
         style="@style/SOptionButton"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cvSSecondOption"
         android:layout_height="64dp"
         android:layout_width="64dp"
         app:cardBackgroundColor="@color/sucideconduct_button"
-        app:layout_constraintTop_toBottomOf="@+id/tvSubTitle"
-        android:layout_marginStart="64dp">
+        app:layout_constraintTop_toBottomOf="@+id/tvSubTitle">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cvSSecondOption"
         style="@style/SOptionButton"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cvSThirdOption"
         app:layout_constraintStart_toEndOf="@+id/cvSFirstOption"
         android:layout_height="64dp"
         android:layout_width="64dp"
@@ -96,11 +96,42 @@
 
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSThirdOption"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cvSSecondOption"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/tvSubTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_third_option_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Qué puede llevarme a intentarlo?"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvSFourthOption"
         style="@style/SOptionButton"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cvSFifthOption"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_height="64dp"
         android:layout_width="64dp"
@@ -122,6 +153,198 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="¿Qué pasa en tu mente cuando tienes estas ideas?"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSFifthOption"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toStartOf="@id/cvSSixthOption"
+        app:layout_constraintStart_toEndOf="@+id/cvSFourthOption"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/cvSSecondOption">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_fifth_option_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Qué te ayuda a prevenir el suicidio?"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSSixthOption"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cvSFifthOption"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/cvSThirdOption">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_six_option_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prejuicios y estigmas"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSSeventhOption"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toStartOf="@id/cvSEighthOption"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/cvSFourthOption">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_seventh_option_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mitos vs. Realidades"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSEighthOption"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toStartOf="@id/cvSNinthOption"
+        app:layout_constraintStart_toEndOf="@+id/cvSSeventhOption"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/cvSFifthOption">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_eighth_option_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Señales de alerta"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSNinthOption"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cvSEighthOption"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/cvSSixthOption">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_ninth_option_ic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Quiéres saber un poco más del tema?"
+                android:gravity="center"
+                android:textColor="@color/sucideconduct_button_text"
+                android:textSize="8sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvSDirectory"
+        style="@style/SOptionButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_height="64dp"
+        android:layout_width="64dp"
+        app:cardBackgroundColor="@color/sucideconduct_button"
+        app:layout_constraintTop_toBottomOf="@+id/cvSEighthOption">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/s_conduct_directoryic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Directorio de ayuda"
                 android:gravity="center"
                 android:textColor="@color/sucideconduct_button_text"
                 android:textSize="8sp" />

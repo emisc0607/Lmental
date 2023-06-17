@@ -12,6 +12,30 @@
         android:theme="@style/Theme.Lmental"
         tools:targetApi="31">
         <activity
+            android:name=".suicide.FourthOption.SelfHate"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FourthOption.Agitation"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FourthOption.Stress"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FourthOption.PsychologicalPain"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FourthOption.DefeatEntrapment"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FourthOption.NegativityHelp"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FourthOption.Impulsiveness"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FourthOption.Hoplessness"
+            android:exported="false" />
+        <activity
             android:name=".suicide.FourthOption.SuicideFourth"
             android:exported="false" />
         <activity

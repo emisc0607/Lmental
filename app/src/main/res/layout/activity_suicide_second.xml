@@ -88,8 +88,7 @@
         style="@style/SSecondOptionButton"
         app:layout_constraintStart_toEndOf="@id/cvMentalProblems"
         app:layout_constraintTop_toBottomOf="@+id/ivSecondOptionMain"
-        app:layout_constraintEnd_toStartOf="@id/cvFamProblems"
-        android:layout_marginStart="16dp">
+        app:layout_constraintEnd_toStartOf="@id/cvFamProblems">
 
         <LinearLayout
             android:layout_width="match_parent"
