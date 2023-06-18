@@ -21,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/tvCurrentQuestion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=" 1 "
@@ -111,6 +112,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sConduct_mythReality_title_answer_myth"
+                android:gravity="center"
                 android:textColor="#008037"
                 android:textSize="24sp"
                 android:textStyle="bold" />

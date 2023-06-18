@@ -23,4 +23,5 @@ class SuicideSeventh : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
 }
