@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:text="Inhala por la nariz\n\(4 segundos)\n\nAguanta\n(6 Segundos)\n\nExhala por la boca\n(8 Segundos)"
+                android:text="@string/sConduct_secondOption_schoolStress_FirstHelp"
                 android:textSize="18sp"/>
 
         </LinearLayout>

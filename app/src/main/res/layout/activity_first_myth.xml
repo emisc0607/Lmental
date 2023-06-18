@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/sub_background"
+    android:layout_margin="16dp"
+    tools:context=".suicide.SeventhOption.SevOSubOptions.FirstMyth">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvFirstMythNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="128dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvFirstMyth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 1 "
+            android:textColor="@color/sub_background"
+            android:textSize="64dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvFirstMyth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/sConduct_mythReality_firstQuestion"
+        android:textColor="#873A34"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/cvMythOption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvFirstMythNumber" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvMythOption"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#A4409E"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/cvMythRealAnswerBox"
+        app:layout_constraintEnd_toStartOf="@id/cvRealityOption"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstMyth">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="      Mito"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvRealityOption"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#E1671D"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/cvMythRealAnswerBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/cvMythOption"
+        app:layout_constraintTop_toBottomOf="@+id/tvFirstMyth">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="  Realidad  "
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:visibility="invisible"
+        android:id="@+id/cvMythRealAnswerBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/main_background"
+        app:layout_constraintBottom_toTopOf="@+id/bMythRealNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvMythRealAnswerTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sConduct_mythReality_title_answer_myth"
+                android:textColor="#008037"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMythRealAnswerBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/sConduct_mythReality_firstAnswer"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:visibility="invisible"
+        android:enabled="false"
+        android:id="@+id/bMythRealNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Siguiente Pregunta"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/white"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

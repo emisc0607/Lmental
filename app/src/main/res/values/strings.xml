@@ -2,4 +2,31 @@
     <string name="app_name">Lmental</string>
     <string name="str_button1">Conducta Suicida</string>
     <string name="consumption">Consumo de alcohol y drogas</string>
+
+    <string name="sConduct_mythReality_firstQuestion">\'\'El que se quiere matar no lo dice\'\'</string>
+    <string name="sConduct_mythReality_secondQuestion">\'\'El que lo dice, no lo hace\'\'</string>
+    <string name="sConduct_mythReality_thirdQuestion">\'\'Todos los que intentan suicidarse están deprimidos\'\'</string>
+    <string name="sConduct_mythReality_fourthQuestion">\'\'El suicidio es hereditario\'\'</string>
+    <string name="sConduct_mythReality_fifthQuestion">\'\'Hablar del suicidio reduce el riesgo de realizarlo\'\'</string>
+    <string name="sConduct_mythReality_sixthQuestion">\'\'El suicida desea vivir si pudiera cambiar su vida\'\'</string>
+    <string name="sConduct_mythReality_seventhQuestion">\'\'El que intenta suicidarse es un cobarde\'\'</string>
+    <string name="sConduct_mythReality_eighthQuestion">\'\'Los niños y los adolescentes también se suicidan\'\'</string>
+
+    <string name="sConduct_mythReality_firstAnswer">Este mito conduce a restar atención a las personas que manifiestan su deseo de morir, de hecho, 9 de cada 10 personas que se suicidan manifestaron sus intenciones de acabar con su vida.</string>
+    <string name="sConduct_mythReality_secondAnswer">Regularmente se cree que cuando alguien habla de ideas o planes, lo hace con la intención de chantajear o manipular. Quien se suicida, puede expresar lo que ocurriría con palabras, amenazas o cambios de conducta.</string>
+    <string name="sConduct_mythReality_thirdAnswer">No todos los que intentan suicidarse o se suicidan, presentan depresión u trastorno mental</string>
+    <string name="sConduct_mythReality_fourthAnswer">Está idea hace creer que no puedes cambiar tu herencia, pero existen factores que pueden contraatacarlo. Da click en el botón para que puedas recordarlos.</string>
+    <string name="sConduct_mythReality_fifthAnswer">Está demostrado que hablar del suicidio reduce el riesgo de realizarlo, sin embargo, hay quienes tienen miedo de tocar el tema porque creen que puede incitar a que lo realicen.</string>
+    <string name="sConduct_mythReality_sixthAnswer">El suicida desea morir si su vida continúa de la misma manera y desea vivir si pudiera cambiarla.</string>
+    <string name="sConduct_mythReality_seventhAnswer">El que intenta suicidarse no es cobarde, es una persona que está sufriendo.</string>
+    <string name="sConduct_mythReality_eighthAnswer">Se creía que solo los mayores se suicidaban, sin embargo, es una causa de muerte de la infancia y la adolescencia que cada vez va en aumento en el mundo.</string>
+
+    <string name="sConduct_mythReality_results_exc">¡Excelente!\nSabes puntos muy importantes del suicidio, continúa así</string>
+    <string name="sConduct_mythReality_results_good">¡Bien!\nContinua aprendiendo más</string>
+    <string name="sConduct_mythReality_results_bad">¡Ouch!\nObtuviste un puntaje bajo, pero aquí aprenderas más</string>
+    <string name="sConduct_mythReality_title_answer_myth">Respuesta correcta MITO:</string>
+    <string name="sConduct_mythReality_title_answer_real">Respuesta correcta REALIDAD:</string>
+
+
+    <string name="sConduct_secondOption_schoolStress_FirstHelp">Inhala por la nariz\n(4 segundos)\n\nAguanta\n(6 Segundos)\n\nExhala por la boca\n(8 Segundos)</string>
 </resources>

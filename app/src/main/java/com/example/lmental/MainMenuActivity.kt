@@ -12,7 +12,6 @@ class MainMenuActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-
         binding.bSuicide.setOnClickListener{
             val intent = Intent(this, SuicideActivity::class.java)
             startActivity(intent)

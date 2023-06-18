@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/sucideconduct_background"
+    tools:context=".suicide.SeventhOption.SuicideSeventh">
+
+    <ImageView
+        android:id="@+id/ivSSeventhOptionMain"
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvSeventhOptionMainOne"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/seventh_option_main_ic"/>
+
+    <TextView
+        android:id="@+id/tvSeventhOptionMainOne"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="32dp"
+        android:text="Existen mitos o ideas erróneas en torno al suicidio, ¿los conoces?:"
+        app:layout_constraintStart_toEndOf="@+id/ivSSeventhOptionMain"
+        android:textColor="#545454"/>
+
+    <TextView
+        android:id="@+id/tvSeventhOptionMainTwo"
+        android:layout_width="200dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSSeventhOptionMain"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeventhOptionMainOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="64dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textAllCaps="true"
+        android:text="Al final, ¡Sabrás tu puntaje!"
+        android:textColor="#873A34"/>
+
+    <ImageView
+        android:id="@+id/ivMythReality"
+        android:layout_marginTop="16dp"
+        android:background="#00F5EE"
+        android:layout_width="220dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivSSeventhOptionMain"
+        android:src="@drawable/myth_reality_ic"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSSeventhActivityReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F61E74"
+        android:src="@drawable/ic_return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ivMythReality" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
