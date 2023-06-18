@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lmental.MainMenuActivity
 import com.example.lmental.databinding.ActivitySuicideBinding
+import com.example.lmental.suicide.FifthOption.SuicideFifth
 import com.example.lmental.suicide.FirstOption.SuicideFirstActivity
 import com.example.lmental.suicide.FourthOption.SuicideFourth
 import com.example.lmental.suicide.SecondOption.SuicideSecond
@@ -33,6 +34,11 @@ class SuicideActivity : AppCompatActivity() {
 
         binding.cvSFourthOption.setOnClickListener {
             val intent = Intent(this, SuicideFourth::class.java)
+            startActivity(intent)
+        }
+
+        binding.cvSFifthOption.setOnClickListener {
+            val intent = Intent(this, SuicideFifth::class.java)
             startActivity(intent)
         }
 

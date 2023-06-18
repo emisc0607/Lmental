@@ -12,6 +12,15 @@
         android:theme="@style/Theme.Lmental"
         tools:targetApi="31">
         <activity
+            android:name=".suicide.FifthOption.FiOSubOptions.PersonalWheelResults"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FifthOption.FiOSubOptions.PersonalWheel"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.FifthOption.SuicideFifth"
+            android:exported="false" />
+        <activity
             android:name=".suicide.SeventhOption.SevOSubOptions.MythRealResults"
             android:exported="false" />
         <activity

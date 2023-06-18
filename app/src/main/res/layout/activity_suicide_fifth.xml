@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/sucideconduct_background"
+    tools:context=".suicide.FifthOption.SuicideFifth">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/fifth_option_main_ic"/>
+
+    <Button
+        android:layout_marginVertical="16dp"
+        android:id="@+id/bFifthPersonal"
+        android:layout_width="300dp"
+        android:layout_height="96dp"
+        android:backgroundTint="#2A91CF"
+        android:text="Personales"
+        android:textStyle="bold"
+        android:textSize="32sp"/>
+
+    <Button
+
+        android:layout_marginVertical="16dp"
+        android:id="@+id/bFifthSocial"
+        android:layout_width="300dp"
+        android:layout_height="96dp"
+        android:backgroundTint="#2A91CF"
+        android:text="Sociales"
+        android:textStyle="bold"
+        android:textSize="32sp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSFifthReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="start"
+        android:backgroundTint="#F61E74"
+        android:src="@drawable/ic_return" />
+
+</LinearLayout>

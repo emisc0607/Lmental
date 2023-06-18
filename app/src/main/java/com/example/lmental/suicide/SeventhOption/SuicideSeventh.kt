@@ -4,14 +4,14 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.lmental.databinding.ActivitySuicideSixthBinding
+import com.example.lmental.databinding.ActivitySuicideSeventhBinding
 import com.example.lmental.suicide.SeventhOption.SevOSubOptions.FirstMyth
 import com.example.lmental.suicide.SuicideActivity
 
 class SuicideSeventh : AppCompatActivity() {
-    private lateinit var binding: ActivitySuicideSixthBinding
+    private lateinit var binding: ActivitySuicideSeventhBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivitySuicideSixthBinding.inflate(layoutInflater)
+        binding = ActivitySuicideSeventhBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         binding.fabSSeventhActivityReturn.setOnClickListener {

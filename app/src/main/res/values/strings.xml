@@ -28,6 +28,18 @@
     <string name="sConduct_mythReality_title_answer_real">Respuesta correcta REALIDAD:</string>
 
 
+    <string name="sConduct_personalWheel_first_option_title">Competencias</string>
+    <string name="sConduct_personalWheel_first_option_body">Si aprendes a solucionar tus problemas, controlar el estrés, resolver conflictos, pedir ayuda y expresar pensamientos y sentimientos</string>
+    <string name="sConduct_personalWheel_second_option_title">Habilidades Mentales</string>
+    <string name="sConduct_personalWheel_second_option_body">Desarrollar tu esperanza, confianza, autocontrol, responsabilidad, perseverancia, adaptación, tolerancia a la frustración, optimismo, buena autoestima y empatía, te ayudará a enfrentar más fácilmente diversas situaciones.</string>
+    <string name="sConduct_personalWheel_third_option_title">Hábitos saludables</string>
+    <string name="sConduct_personalWheel_third_option_body">Aliméntate bien, haz ejercicio, duerme bien y date tiempo para entretenerte.</string>
+    <string name="sConduct_personalWheel_fourth_option_title">Salud Física y Mental</string>
+    <string name="sConduct_personalWheel_fourth_option_body">Si tienes salud física y bienestar emocional.</string>
+    <string name="sConduct_personalWheel_fifth_option_title">Analiza tus ideas</string>
+    <string name="sConduct_personalWheel_fifth_option_body">Reconocer lo que estás haciendo puede ayudarte a hacer cambios para lograr tus objetivos.</string>
+
+
     <string name="sConduct_secondOption_schoolStress_FirstHelp">Inhala por la nariz\n(4 segundos)\n\nAguanta\n(6 Segundos)\n\nExhala por la boca\n(8 Segundos)</string>
     <string name="sConduct_mythReal_results_max_score">/8</string>
 </resources>
