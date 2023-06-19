@@ -8,42 +8,38 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.animation.AccelerateDecelerateInterpolator
 import androidx.appcompat.app.AlertDialog
-import com.example.lmental.StartActivity
-import com.example.lmental.databinding.ActivityPersonalWheelBinding
+import com.example.lmental.databinding.ActivitySocialWheelBinding
 import com.example.lmental.suicide.FifthOption.SuicideFifth
 import kotlin.random.Random
 
-class PersonalWheel : AppCompatActivity() {
-
-    private lateinit var binding: ActivityPersonalWheelBinding
-    private val divisions = 5
+class SocialWheel : AppCompatActivity() {
+    private lateinit var binding: ActivitySocialWheelBinding
+    private val divisions = 7
     companion object{
-        const val PERSONALW_KEY = "PERSONALW_KEY"
+        const val SOCIALW_KEY = "SOCIALW_KEY"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivityPersonalWheelBinding.inflate(layoutInflater)
+        binding = ActivitySocialWheelBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         initListeners()
     }
 
     private fun initListeners() {
-        binding.fabPersonalWheelReturn.setOnClickListener {
+        binding.fabSocialWheelReturn.setOnClickListener {
             val intent = Intent(this, SuicideFifth::class.java)
             startActivity(intent)
         }
-
-        binding.bSpinPersonalWheel.setOnClickListener{
-            if(binding.bSpinPersonalWheel.isEnabled){
+        binding.bSpinSocialWheel.setOnClickListener{
+            if(binding.bSpinSocialWheel.isEnabled){
                 animateRoulette()
-                binding.bSpinPersonalWheel.isEnabled = false
+                binding.bSpinSocialWheel.isEnabled = false
             }
         }
 
-        binding.fabPersonalWheelSelect.setOnClickListener {
-            val options = arrayOf("Competancias","Analiza tus ideas","Salud Física y Mental","Hábitos saludables","Habilidades Mentales")
-
+        binding.fabSocialWheelSelect.setOnClickListener {
+            val options = arrayOf("Familiares","Dificultad de acceso a métodos letales","Recibir Ayuda","Acceso a servicios","Donde vives","Buenos amigos","Competencias")
             val builder = AlertDialog.Builder(this)
             builder.setTitle("Selecciona una opción")
             builder.setItems(options){ dialog, which ->
@@ -59,7 +55,7 @@ class PersonalWheel : AppCompatActivity() {
         val randomDivision = Random.nextInt(divisions)
         val degrees = (randomDivision * 360 / divisions).toFloat()
 
-        val animator = ObjectAnimator.ofFloat(binding.ivPersonalWheel, "rotation", 0f, degrees)
+        val animator = ObjectAnimator.ofFloat(binding.ivSocialWheel, "rotation", 0f, degrees)
         animator.duration = 2000 // Duración de la animación en milisegundos
         animator.interpolator = AccelerateDecelerateInterpolator()
         animator.addListener(object : AnimatorListenerAdapter() {
@@ -72,10 +68,10 @@ class PersonalWheel : AppCompatActivity() {
 
 
     private fun openResults(option: Int){
-        val intent = Intent(this@PersonalWheel, PersonalWheelResults::class.java)
-        intent.putExtra(PERSONALW_KEY,option)
+        val intent = Intent(this, SocialWheelResults::class.java)
+        intent.putExtra(SocialWheel.SOCIALW_KEY,option)
         startActivity(intent)
-        binding.bSpinPersonalWheel.isEnabled = true
+        binding.bSpinSocialWheel.isEnabled = true
     }
 
 

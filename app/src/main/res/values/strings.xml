@@ -39,6 +39,22 @@
     <string name="sConduct_personalWheel_fifth_option_title">Analiza tus ideas</string>
     <string name="sConduct_personalWheel_fifth_option_body">Reconocer lo que estás haciendo puede ayudarte a hacer cambios para lograr tus objetivos.</string>
 
+    
+    <string name="sConduct_socialWheel_first_option_title">Familiares</string>
+    <string name="sConduct_socialWheel_first_option_body">El apoyo de tu familia, amigos y novi@ ayuda a sentirte amad@, aceptad@ y apoyad@.</string>
+    <string name="sConduct_socialWheel_second_option_title">Dificultad de acceso a métodos letales</string>
+    <string name="sConduct_socialWheel_second_option_body">Si tienes ideas, lo mejor es que quiten armas, medicamentos o tóxicos porque disminuye la posibilidad de que planees o practiques un suicidio.</string>
+    <string name="sConduct_socialWheel_third_option_title">Recibir ayuda</string>
+    <string name="sConduct_socialWheel_third_option_body">Contarle a alguien lo que te pasa, ayudará a que puedas acudir más rápido con un profesional para recibir un tratamiento, ¡recuerda que es confidencial y será lo mejor para tu salud física y mental!</string>
+    <string name="sConduct_socialWheel_fourth_option_title">Acceso a servicios</string>
+    <string name="sConduct_socialWheel_fourth_option_body">Ubica espacios de salud y salud mental a los que puedes acudir y que incluso puedes consultar en esta app, en algunos pueden brindarte la atención aunque no vayas con un adulto.</string>
+    <string name="sConduct_socialWheel_fifth_option_title">Donde vives</string>
+    <string name="sConduct_socialWheel_fifth_option_body">Reconoce las escuelas, espacios deportivos y recreativos que puedes utilizar.</string>
+    <string name="sConduct_socialWheel_sixth_option_title">Buenos amigos</string>
+    <string name="sConduct_socialWheel_sixth_option_body">Tener presente a tus amigos, conocer a más personas de tu edad y sentirte dentro de un grupo.</string>
+    <string name="sConduct_socialWheel_seventh_option_title">Competencias</string>
+    <string name="sConduct_socialWheel_seventh_option_body">Si eres respetuos@, solidari@, just@, tolerante, inclusiv@ y amigable</string>
+
 
     <string name="sConduct_secondOption_schoolStress_FirstHelp">Inhala por la nariz\n(4 segundos)\n\nAguanta\n(6 Segundos)\n\nExhala por la boca\n(8 Segundos)</string>
     <string name="sConduct_mythReal_results_max_score">/8</string>

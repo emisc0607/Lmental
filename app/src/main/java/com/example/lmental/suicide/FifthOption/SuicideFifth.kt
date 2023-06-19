@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.lmental.databinding.ActivitySuicideFifthBinding
 import com.example.lmental.suicide.FifthOption.FiOSubOptions.PersonalWheel
+import com.example.lmental.suicide.FifthOption.FiOSubOptions.SocialWheel
 import com.example.lmental.suicide.SuicideActivity
 
 class SuicideFifth : AppCompatActivity() {
@@ -21,6 +22,11 @@ class SuicideFifth : AppCompatActivity() {
 
         binding.fabSFifthReturn.setOnClickListener{
             val intent = Intent(this, SuicideActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bFifthSocial.setOnClickListener{
+            val intent = Intent(this, SocialWheel::class.java)
             startActivity(intent)
         }
 
