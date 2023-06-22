@@ -48,6 +48,7 @@
             style="@style/SFirstSubtitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:text="Ideas de Muerte" />
 
         <TextView
@@ -84,6 +85,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
+        android:gravity="center"
         android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:text="¡Pide ayuda con cualquiera de estas señales! Recuerda que puedes recibirla dando click al directorio"

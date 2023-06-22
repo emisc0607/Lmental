@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lmental"
         tools:targetApi="31">
+        <activity
+            android:name=".suicide.SixthOption.SuicideSixResults"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.SixthOption.SuicideSixth"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.ThirdOption.SuicideThirdResults"
+            android:exported="false" />
+        <activity
+            android:name=".suicide.ThirdOption.SuicideThird"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false" />
         <activity
             android:name=".suicide.FifthOption.FiOSubOptions.SocialWheelResults"
             android:exported="false" />
@@ -134,15 +151,6 @@
         <activity
             android:name=".suicide.SuicideActivity"
             android:exported="false" />
-        <activity
-            android:name=".MainMenuActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

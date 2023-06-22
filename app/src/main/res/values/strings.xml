@@ -39,7 +39,6 @@
     <string name="sConduct_personalWheel_fifth_option_title">Analiza tus ideas</string>
     <string name="sConduct_personalWheel_fifth_option_body">Reconocer lo que estás haciendo puede ayudarte a hacer cambios para lograr tus objetivos.</string>
 
-    
     <string name="sConduct_socialWheel_first_option_title">Familiares</string>
     <string name="sConduct_socialWheel_first_option_body">El apoyo de tu familia, amigos y novi@ ayuda a sentirte amad@, aceptad@ y apoyad@.</string>
     <string name="sConduct_socialWheel_second_option_title">Dificultad de acceso a métodos letales</string>
@@ -55,7 +54,28 @@
     <string name="sConduct_socialWheel_seventh_option_title">Competencias</string>
     <string name="sConduct_socialWheel_seventh_option_body">Si eres respetuos@, solidari@, just@, tolerante, inclusiv@ y amigable</string>
 
-
     <string name="sConduct_secondOption_schoolStress_FirstHelp">Inhala por la nariz\n(4 segundos)\n\nAguanta\n(6 Segundos)\n\nExhala por la boca\n(8 Segundos)</string>
     <string name="sConduct_mythReal_results_max_score">/8</string>
+
+    <string name="sConduct_third_one">Discutir con alguien importante para tí.</string>
+    <string name="sConduct_third_two">Cortar con tu novi@.</string>
+    <string name="sConduct_third_three">Si alguien cercano a ti o a quien admiras se suicido.</string>
+    <string name="sConduct_third_four">Si te pasaste de alcohol u otras drogas</string>
+    <string name="sConduct_third_five">Si tienes un problema de salud mental, una enfermedad o un accidente.</string>
+    <string name="sConduct_third_six">Si experimentaste cambios drásticos e inesperados.</string>
+    <string name="sConduct_third_seven">Si vivivste un acontecimiento traumático como abuso, acoso o violencia.</string>
+    <string name="sConduct_third_eight">Si perdiste importancia frente familiares, amigos, compañeros o vecinos.</string>
+
+    <string name="sConduct_six_one">El estigma puede generarte ideas negativas y hacer que rechaces a una persona o personas por sus características.</string>
+    <string name="sConduct_six_two">¿Sabías que llamarle a alguien con problemas de salud mental " loco" o la frase "solo los locos van al psicólogo" son ejemplos de estigma?</string>
+    <string name="sConduct_six_three">Las "etiquetas" que les ponen a los demás no solo hacen a que sean rechazadas, sino también discriminadas.</string>
+    <string name="sConduct_six_four">Cuando alguien es estigmatizado, su familia también lo está, lo que les provoca humillación, vergüenza, aislamiento y exclusión.</string>
+    <string name="sConduct_six_five">Si alguien habla de sus pensamientos y planes suicidas, es tachado de “loco”, sin embargo, no lo está, está pasando por momentos difíciles y necesita ayuda de manera urgente.</string>
+    <string name="sConduct_six_six">Una persona con ideación suicida se limita a buscar ayuda porque algunos suelen creer que las personas con conductas suicidas son débiles, egoístas y solo lo hacen por llamar la atención.</string>
+    <string name="sConduct_six_seven">El estigma del suicidio es una barrera que impide evitar una muerte que se puede prevenir.</string>
+    <string name="sConduct_six_eight">El estigma puede hacer que sientas vergüenza. Hay quienes se aíslan y pierden el contacto con amigos y familia.</string>
+    <string name="sConduct_six_nine">Si has presentado alguna situación suicida, no tengas miedo, es necesario hablar de ello, ya que si lo sigues ocultando, retrasará que alguien pueda ayudarte a que te sientas mejor.</string>
+    <string name="sConduct_six_ten">Si rechazas un diagnóstico por miedo al estigma, provocarás incumplimiento de tu tratatamiento que causará recaídas y reaparición del riesgo suicida.</string>
+
+
 </resources>

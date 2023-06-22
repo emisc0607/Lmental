@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/sucideconduct_background"
+    android:padding="16dp"
+    tools:context=".suicide.SixthOption.SuicideSixth">
+
+
+    <ImageView
+        android:id="@+id/ivSSixthMain"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sixth_option_main_ic_s"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivSSixthVideo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/video_ic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvSixText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="El estigma es cuando una persona tiene ideas de las características de las personas. Presiona los botones para conocer más o puedes ver un resumen en el video."
+        android:textColor="#873A34"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSSixthMain" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSixReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:backgroundTint="#F61E74"
+        android:src="@drawable/ic_return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <ImageView
+        android:id="@+id/ivSixOne"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSixText"
+        app:layout_constraintEnd_toStartOf="@+id/ivSixTwo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/red_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixTwo"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixOne"
+        app:layout_constraintTop_toBottomOf="@+id/tvSixText"
+        app:layout_constraintEnd_toStartOf="@+id/ivSixThree"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/blue_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixThree"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixTwo"
+        app:layout_constraintTop_toBottomOf="@+id/tvSixText"
+        app:layout_constraintEnd_toStartOf="@+id/ivSixFour"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/orange_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixFour"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixThree"
+       app:layout_constraintEnd_toStartOf="@+id/ivSixFive"
+        app:layout_constraintTop_toBottomOf="@+id/tvSixText"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/red_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixFive"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixFour"
+        app:layout_constraintTop_toBottomOf="@+id/tvSixText"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/blue_button_ic"/>
+    <ImageView
+        android:id="@+id/ivSixSix"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivSixOne"
+        app:layout_constraintEnd_toStartOf="@+id/ivSixTwo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/orange_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixSeven"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixOne"
+        app:layout_constraintTop_toBottomOf="@+id/ivSixOne"
+        app:layout_constraintEnd_toStartOf="@+id/ivSixThree"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/red_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixEight"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixTwo"
+        app:layout_constraintTop_toBottomOf="@+id/ivSixOne"
+        app:layout_constraintEnd_toStartOf="@+id/ivSixFour"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/blue_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixNine"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixThree"
+        app:layout_constraintEnd_toStartOf="@+id/ivSixFive"
+        app:layout_constraintTop_toBottomOf="@+id/ivSixOne"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/orange_button_ic"/>
+
+    <ImageView
+        android:id="@+id/ivSixTen"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/ivSixFour"
+        app:layout_constraintTop_toBottomOf="@+id/ivSixOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/red_button_ic"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

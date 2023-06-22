@@ -47,13 +47,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="300dp"
+            android:gravity="center"
             android:orientation="vertical">
 
             <TextView
                 style="@style/DIdea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="32dp"
                 android:text="Tienes pensamientos como:" />
 
             <TextView
@@ -78,6 +78,7 @@
                 style="@style/DIdea"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:text="  *¨Mi familia y amigos estarían mejor si muriera¨" />
         </LinearLayout>
 

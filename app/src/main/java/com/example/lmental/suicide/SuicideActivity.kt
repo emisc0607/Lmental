@@ -10,6 +10,8 @@ import com.example.lmental.suicide.FirstOption.SuicideFirstActivity
 import com.example.lmental.suicide.FourthOption.SuicideFourth
 import com.example.lmental.suicide.SecondOption.SuicideSecond
 import com.example.lmental.suicide.SeventhOption.SuicideSeventh
+import com.example.lmental.suicide.SixthOption.SuicideSixth
+import com.example.lmental.suicide.ThirdOption.SuicideThird
 
 class SuicideActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySuicideBinding
@@ -27,6 +29,12 @@ class SuicideActivity : AppCompatActivity() {
             val intent = Intent(this, SuicideSecond::class.java)
             startActivity(intent)
         }
+
+        binding.cvSThirdOption.setOnClickListener {
+            val intent = Intent(this, SuicideThird::class.java)
+            startActivity(intent)
+        }
+
         binding.fabSActivityReturn.setOnClickListener {
             val intent = Intent(this, MainMenuActivity::class.java)
             startActivity(intent)
@@ -39,6 +47,11 @@ class SuicideActivity : AppCompatActivity() {
 
         binding.cvSFifthOption.setOnClickListener {
             val intent = Intent(this, SuicideFifth::class.java)
+            startActivity(intent)
+        }
+
+        binding.cvSSixthOption.setOnClickListener {
+            val intent = Intent(this, SuicideSixth::class.java)
             startActivity(intent)
         }
 

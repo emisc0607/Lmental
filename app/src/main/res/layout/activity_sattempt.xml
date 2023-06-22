@@ -30,6 +30,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="128dp"
+        app:layout_constraintStart_toEndOf="@+id/cvSAttempt"
         android:src="@drawable/s_attempt_thermo"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginVertical="64dp"
@@ -46,6 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/cvSAttempt">
 
         <LinearLayout
+            android:gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
